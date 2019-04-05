@@ -17,6 +17,8 @@ import UIKit
     
     open var titleTextColor: UIColor? = .black
     
+    open var delegate: LopeDelegate?
+    
     open lazy var baseView: UIView = {
         let baseView = UIView()
         baseView.translatesAutoresizingMaskIntoConstraints = false
@@ -40,10 +42,9 @@ import UIKit
     }()
     
     private var startingFrame: CGRect?
-    open weak var delegate: LopeDelegate?
     
     let screenSize = UIScreen.main.bounds
-    public override init(frame: CGRect) {
+    public init(frame: CGRect) {
         super.init(frame: frame)
         sliderImage.backgroundColor = sliderBackgroundColor
         baseView.backgroundColor = baseViewBackgroundColor

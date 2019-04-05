@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Lope"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "A SliderView written in swift just for you."
 
   # This description is used to generate tags and improve search results.

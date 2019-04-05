@@ -1,5 +1,5 @@
 PODS:
-  - Lope (0.0.2)
+  - Lope (0.0.4)
 
 DEPENDENCIES:
   - Lope (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  Lope: 1bd7b9888783bcaa8f500c1ee630ada297f44b5a
+  Lope: 373903561c79069e57c54bfe9440b399c68ff784
 
 PODFILE CHECKSUM: 6ecf717be2f14e0857aeaa40a16f957e6a2d7268
 
