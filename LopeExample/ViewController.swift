@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         return sliderImage
     }()
     
-    var lope: Lope!
+//    var lope: Lope!
     
     override func viewDidLoad() {
         super.viewDidLoad()
