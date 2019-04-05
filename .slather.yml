@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: Lope.xcodeproj
+scheme: Lope
+output_directory: reports
+ignore:
+- LopeTests/*
