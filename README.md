@@ -1,4 +1,24 @@
 # Lope
+
+<!-- Markdown link & img dfn's -->
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[![wiki]: ()](https://github.com/AdieOlami/Lope/wiki)
+
+[![Coverage](https://img.shields.io/badge/coverage-80%25-yellow.svg?style=flat)]()
+[![Documentation](
+)[Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/matteocrippa/awesome-swift#json)
+
+
+[![Version](https://img.shields.io/cocoapods/v/EVReflection.svg?style=flat)](http://cocoadocs.org/docsets/EVReflection)
+
+[![Language](https://img.shields.io/badge/language-swift%204%20&%205-f48041.svg?style=flat)](https://developer.apple.com/swift)
+
+[![Git](https://img.shields.io/badge/GitHub-AdieOlami-blue.svg?style=flat)](https://github.com/adieolami)
+[![Twitter](https://img.shields.io/badge/twitter-@AdieOlami-blue.svg?style=flat)](http://twitter.com/adieolami)
+[![LinkedIn](https://img.shields.io/badge/linkedin-Adie%20Olami-blue.svg?style=flat)](http://linkedin.com/in/olalekan-adie-16579b99)
+[![eMail](https://img.shields.io/badge/email-ugbeadie@gmail.com-blue.svg?style=flat)](mailto:ugbeadie@gmail.com?SUBJECT=About%Lope)
+
+
 > This is an easy and Elegant SliderView which you can easily implemet in your application.
 
 [![Build Status][travis-image]][travis-url]
@@ -117,26 +137,4 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: 
-[wiki]: https://github.com/AdieOlami/Lope/wiki
-[![Issues](https://img.shields.io/github/issues-raw/evermeer/EVReflection.svg?style=flat)](https://github.com/evermeer/EVReflection/issues)
-[![Coverage](https://img.shields.io/badge/coverage-80%25-yellow.svg?style=flat)]()
-[![Documentation](
-)[Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/matteocrippa/awesome-swift#json)
-
-
-[![Version](https://img.shields.io/cocoapods/v/EVReflection.svg?style=flat)](http://cocoadocs.org/docsets/EVReflection)
-
-[![Language](https://img.shields.io/badge/language-swift%204%20&%205-f48041.svg?style=flat)](https://developer.apple.com/swift)
-
-[![License](https://img.shields.io/cocoapods/l/Lope?style=flat)](http://cocoadocs.org/docsets/Lope)
-
-[![Git](https://img.shields.io/badge/GitHub-evermeer-blue.svg?style=flat)](https://github.com/adieolami)
-[![Twitter](https://img.shields.io/badge/twitter-@evermeer-blue.svg?style=flat)](http://twitter.com/adieolami)
-[![LinkedIn](https://img.shields.io/badge/linkedin-Edwin%20Vermeer-blue.svg?style=flat)](http://linkedin.com/in/olalekan-adie-16579b99)
-[![Website](https://img.shields.io/badge/website-evict.nl-blue.svg?style=flat)]()
-[![eMail](https://img.shields.io/badge/email-ugbeadie@gmail.com-blue.svg?style=flat)](mailto:ugbeadie@gmail.com?SUBJECT=About%Lope)
 
