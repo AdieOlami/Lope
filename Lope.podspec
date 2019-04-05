@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Lope"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A SliderView written in swift just for you."
 
   # This description is used to generate tags and improve search results.
@@ -93,6 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Lope/**/*.{h,m,swift}"
+  # , 'Classes/*', 'Resource/*'
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

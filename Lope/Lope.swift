@@ -9,32 +9,47 @@
 import UIKit
 
 
-class Lope: UIView {
+@objc public class Lope: UIView {
     
-    lazy var baseView: UIView = {
+    open var sliderBackgroundColor: UIColor? = .black
+    
+    open var baseViewBackgroundColor: UIColor? = .gray
+    
+    open var titleTextColor: UIColor? = .black
+    
+    open lazy var baseView: UIView = {
         let baseView = UIView()
         baseView.translatesAutoresizingMaskIntoConstraints = false
-        baseView.backgroundColor = .gray
         return baseView
     }()
     
-    lazy var sliderImage: UIImageView = {
+    open lazy var sliderImage: UIImageView = {
         let sliderImage = UIImageView()
         sliderImage.translatesAutoresizingMaskIntoConstraints = false
-        sliderImage.backgroundColor = .blue
         sliderImage.layer.cornerRadius = 10
         sliderImage.isUserInteractionEnabled = true
         sliderImage.clipsToBounds = true
         return sliderImage
     }()
     
-    var startingFrame: CGRect?
+    open lazy var title: UILabel = {
+        let title = UILabel()
+        title.text = "Slide Me"
+        title.translatesAutoresizingMaskIntoConstraints = false
+        return title
+    }()
+    
+    private var startingFrame: CGRect?
     weak var delegate: LopeDelegate?
     
     let screenSize = UIScreen.main.bounds
-    var slided = false
     override init(frame: CGRect) {
         super.init(frame: frame)
+        sliderImage.backgroundColor = sliderBackgroundColor
+        baseView.backgroundColor = baseViewBackgroundColor
+        title.textColor = titleTextColor
+
+
         self.addSubview(baseView)
         baseView.addSubview(sliderImage)
         constraints()
@@ -59,7 +74,11 @@ class Lope: UIView {
             sliderImage.leadingAnchor.constraint(equalTo: baseView.leadingAnchor, constant: 4),
             sliderImage.topAnchor.constraint(equalTo: baseView.topAnchor, constant: 8),
             sliderImage.bottomAnchor.constraint(equalTo: baseView.bottomAnchor, constant: -8),
-            sliderImage.aspectRation(1.0/1.0)
+            sliderImage.aspectRation(1.0/1.0),
+            
+            
+            title.centerXAnchor.constraint(equalTo: baseView.centerXAnchor, constant: 0),
+            title.centerYAnchor.constraint(equalTo: baseView.centerYAnchor, constant: 0),
             ])
         
     }
@@ -107,7 +126,7 @@ class Lope: UIView {
         }
     }
     
-    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+    override public func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
         return sliderImage.frame.contains(point)
     }
 }

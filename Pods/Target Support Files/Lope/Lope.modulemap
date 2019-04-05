@@ -1,0 +1,6 @@
+framework module Lope {
+  umbrella header "Lope-umbrella.h"
+
+  export *
+  module * { export * }
+}

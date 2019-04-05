@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FAE81C331F7707F10ADE215 /* Pods_LopeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620946D0306EFDFFC4EFE9B8 /* Pods_LopeTests.framework */; };
+		E1C300B8555D4C1E3D95A826 /* Pods_LopeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B1D2AB686635906F0E6381 /* Pods_LopeExample.framework */; };
 		E709C7712257B4CB0084D8E1 /* Lope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E709C7672257B4CB0084D8E1 /* Lope.framework */; };
 		E709C7762257B4CB0084D8E1 /* LopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709C7752257B4CB0084D8E1 /* LopeTests.swift */; };
 		E709C7782257B4CB0084D8E1 /* Lope.h in Headers */ = {isa = PBXBuildFile; fileRef = E709C76A2257B4CB0084D8E1 /* Lope.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +19,7 @@
 		E709C7922257B5BC0084D8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E709C7902257B5BC0084D8E1 /* LaunchScreen.storyboard */; };
 		E709C7982257B9D90084D8E1 /* Lope.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709C7972257B9D90084D8E1 /* Lope.swift */; };
 		E709C79A2257BA050084D8E1 /* LopeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709C7992257BA050084D8E1 /* LopeDelegate.swift */; };
+		F17BA694D033587D256A5997 /* Pods_Lope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672624A4635CB529AF5C742 /* Pods_Lope.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53DBD3464A93076822196303 /* Pods-Lope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lope.debug.xcconfig"; path = "Target Support Files/Pods-Lope/Pods-Lope.debug.xcconfig"; sourceTree = "<group>"; };
+		620946D0306EFDFFC4EFE9B8 /* Pods_LopeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LopeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CDD52CE59E3963A5EC5850 /* Pods-LopeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopeExample.release.xcconfig"; path = "Target Support Files/Pods-LopeExample/Pods-LopeExample.release.xcconfig"; sourceTree = "<group>"; };
+		66CA8DECF6350E88D36214D0 /* Pods-LopeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopeTests.release.xcconfig"; path = "Target Support Files/Pods-LopeTests/Pods-LopeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F636E20A56BEF560DAFAC27 /* Pods-LopeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopeExample.debug.xcconfig"; path = "Target Support Files/Pods-LopeExample/Pods-LopeExample.debug.xcconfig"; sourceTree = "<group>"; };
+		A98F134511CFE8C8945E390C /* Pods-LopeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopeTests.debug.xcconfig"; path = "Target Support Files/Pods-LopeTests/Pods-LopeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0B1D2AB686635906F0E6381 /* Pods_LopeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LopeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BC2B03A0CD1B8FE95568B1 /* Pods-Lope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lope.release.xcconfig"; path = "Target Support Files/Pods-Lope/Pods-Lope.release.xcconfig"; sourceTree = "<group>"; };
+		E672624A4635CB529AF5C742 /* Pods_Lope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E709C7672257B4CB0084D8E1 /* Lope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E709C76A2257B4CB0084D8E1 /* Lope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lope.h; sourceTree = "<group>"; };
 		E709C76B2257B4CB0084D8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17BA694D033587D256A5997 /* Pods_Lope.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E709C7712257B4CB0084D8E1 /* Lope.framework in Frameworks */,
+				3FAE81C331F7707F10ADE215 /* Pods_LopeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C300B8555D4C1E3D95A826 /* Pods_LopeExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89B0B3DC6ED7E78123D41ED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53DBD3464A93076822196303 /* Pods-Lope.debug.xcconfig */,
+				C4BC2B03A0CD1B8FE95568B1 /* Pods-Lope.release.xcconfig */,
+				6F636E20A56BEF560DAFAC27 /* Pods-LopeExample.debug.xcconfig */,
+				63CDD52CE59E3963A5EC5850 /* Pods-LopeExample.release.xcconfig */,
+				A98F134511CFE8C8945E390C /* Pods-LopeTests.debug.xcconfig */,
+				66CA8DECF6350E88D36214D0 /* Pods-LopeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B192904D76A21AEB224466B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E672624A4635CB529AF5C742 /* Pods_Lope.framework */,
+				C0B1D2AB686635906F0E6381 /* Pods_LopeExample.framework */,
+				620946D0306EFDFFC4EFE9B8 /* Pods_LopeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E709C75D2257B4CB0084D8E1 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +119,8 @@
 				E709C7742257B4CB0084D8E1 /* LopeTests */,
 				E709C7862257B5BB0084D8E1 /* LopeExample */,
 				E709C7682257B4CB0084D8E1 /* Products */,
+				89B0B3DC6ED7E78123D41ED7 /* Pods */,
+				9B192904D76A21AEB224466B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E709C77B2257B4CB0084D8E1 /* Build configuration list for PBXNativeTarget "Lope" */;
 			buildPhases = (
+				53794F3579F4BEAC322EF96F /* [CP] Check Pods Manifest.lock */,
 				E709C7622257B4CB0084D8E1 /* Headers */,
 				E709C7632257B4CB0084D8E1 /* Sources */,
 				E709C7642257B4CB0084D8E1 /* Frameworks */,
@@ -162,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E709C77E2257B4CB0084D8E1 /* Build configuration list for PBXNativeTarget "LopeTests" */;
 			buildPhases = (
+				BFAFD8A5138B2CE369F0ECB6 /* [CP] Check Pods Manifest.lock */,
 				E709C76C2257B4CB0084D8E1 /* Sources */,
 				E709C76D2257B4CB0084D8E1 /* Frameworks */,
 				E709C76E2257B4CB0084D8E1 /* Resources */,
@@ -180,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E709C7942257B5BC0084D8E1 /* Build configuration list for PBXNativeTarget "LopeExample" */;
 			buildPhases = (
+				5CF42E32052F72FDE6230E02 /* [CP] Check Pods Manifest.lock */,
 				E709C7812257B5BB0084D8E1 /* Sources */,
 				E709C7822257B5BB0084D8E1 /* Frameworks */,
 				E709C7832257B5BB0084D8E1 /* Resources */,
@@ -261,6 +305,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53794F3579F4BEAC322EF96F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lope-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CF42E32052F72FDE6230E02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LopeExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFAFD8A5138B2CE369F0ECB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LopeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E709C7632257B4CB0084D8E1 /* Sources */ = {
@@ -443,6 +556,7 @@
 		};
 		E709C77C2257B4CB0084D8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53DBD3464A93076822196303 /* Pods-Lope.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -470,6 +584,7 @@
 		};
 		E709C77D2257B4CB0084D8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BC2B03A0CD1B8FE95568B1 /* Pods-Lope.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -496,6 +611,7 @@
 		};
 		E709C77F2257B4CB0084D8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98F134511CFE8C8945E390C /* Pods-LopeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -515,6 +631,7 @@
 		};
 		E709C7802257B4CB0084D8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CA8DECF6350E88D36214D0 /* Pods-LopeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +651,7 @@
 		};
 		E709C7952257B5BC0084D8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F636E20A56BEF560DAFAC27 /* Pods-LopeExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +670,7 @@
 		};
 		E709C7962257B5BC0084D8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63CDD52CE59E3963A5EC5850 /* Pods-LopeExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

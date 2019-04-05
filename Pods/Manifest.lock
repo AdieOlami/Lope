@@ -1,0 +1,16 @@
+PODS:
+  - Lope (0.0.1)
+
+DEPENDENCIES:
+  - Lope (from `./`)
+
+EXTERNAL SOURCES:
+  Lope:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  Lope: b43e0c08bea90cd6d3960d438ca0b37fe0d45ea5
+
+PODFILE CHECKSUM: 6ecf717be2f14e0857aeaa40a16f957e6a2d7268
+
+COCOAPODS: 1.7.0.beta.3

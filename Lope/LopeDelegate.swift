@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol LopeDelegate: class {
+@objc public protocol LopeDelegate: class {
     func startSlide(_ start: Bool)
     func endSlide(_ end: Bool)
 }
