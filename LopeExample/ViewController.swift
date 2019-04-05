@@ -33,8 +33,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .white
-//        lope = Lope(frame: CGRect.zero)
-//        lope.delegate = self
+        lope = Lope(frame: CGRect.zero)
+//        lope.dele = self
         lope.translatesAutoresizingMaskIntoConstraints = false
 //        self.view.addSubview(lope)
         setup()

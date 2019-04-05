@@ -17,7 +17,7 @@ public class Lope: UIView {
     
     open var titleTextColor: UIColor? = .black
     
-    open var delegate: LopeDelegate?
+    @objc public var delegate: LopeDelegate?
     
     open lazy var baseView: UIView = {
         let baseView = UIView()
@@ -44,7 +44,7 @@ public class Lope: UIView {
     private var startingFrame: CGRect?
     
     let screenSize = UIScreen.main.bounds
-    public override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         sliderImage.backgroundColor = sliderBackgroundColor
         baseView.backgroundColor = baseViewBackgroundColor
@@ -57,7 +57,7 @@ public class Lope: UIView {
         swipeFunc()
     }
     
-    public required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -132,7 +132,7 @@ public class Lope: UIView {
     }
 }
 
-extension UIView {
+public extension UIView {
     func aspectRation(_ ratio: CGFloat) -> NSLayoutConstraint {
         return NSLayoutConstraint(item: self, attribute: .height, relatedBy: .equal, toItem: self, attribute: .width, multiplier: ratio, constant: 0)
     }
