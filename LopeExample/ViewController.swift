@@ -33,8 +33,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .white
-        lope = Lope(frame: CGRect.zero)
-        lope.delegate = self
+//        lope = Lope(frame: CGRect.zero)
+//        lope.delegate = self
         lope.translatesAutoresizingMaskIntoConstraints = false
 //        self.view.addSubview(lope)
         setup()
@@ -47,11 +47,11 @@ class ViewController: UIViewController {
             //            lope.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0),
             //            lope.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 0),
             
-//            lope.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 0),
-//
-//            lope.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
-//            lope.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
-//            lope.heightAnchor.constraint(equalToConstant: 64),
+            lope.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 0),
+
+            lope.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
+            lope.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
+            lope.heightAnchor.constraint(equalToConstant: 64),
             ])
     }
     
