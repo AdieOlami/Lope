@@ -15,6 +15,8 @@
 		E709C78D2257B5BB0084D8E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E709C78B2257B5BB0084D8E1 /* Main.storyboard */; };
 		E709C78F2257B5BC0084D8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E709C78E2257B5BC0084D8E1 /* Assets.xcassets */; };
 		E709C7922257B5BC0084D8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E709C7902257B5BC0084D8E1 /* LaunchScreen.storyboard */; };
+		E709C7982257B9D90084D8E1 /* Lope.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709C7972257B9D90084D8E1 /* Lope.swift */; };
+		E709C79A2257BA050084D8E1 /* LopeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709C7992257BA050084D8E1 /* LopeDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		E709C78E2257B5BC0084D8E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E709C7912257B5BC0084D8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E709C7932257B5BC0084D8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E709C7972257B9D90084D8E1 /* Lope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lope.swift; sourceTree = "<group>"; };
+		E709C7992257BA050084D8E1 /* LopeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LopeDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 			children = (
 				E709C76A2257B4CB0084D8E1 /* Lope.h */,
 				E709C76B2257B4CB0084D8E1 /* Info.plist */,
+				E709C7972257B9D90084D8E1 /* Lope.swift */,
+				E709C7992257BA050084D8E1 /* LopeDelegate.swift */,
 			);
 			path = Lope;
 			sourceTree = "<group>";
@@ -199,6 +205,7 @@
 				TargetAttributes = {
 					E709C7662257B4CB0084D8E1 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					E709C76F2257B4CB0084D8E1 = {
 						CreatedOnToolsVersion = 10.2;
@@ -260,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E709C79A2257BA050084D8E1 /* LopeDelegate.swift in Sources */,
+				E709C7982257B9D90084D8E1 /* Lope.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +444,7 @@
 		E709C77C2257B4CB0084D8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -452,6 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adieolami.Lope;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,6 +471,7 @@
 		E709C77D2257B4CB0084D8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -485,6 +497,7 @@
 		E709C77F2257B4CB0084D8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6VULMTHBS;
 				INFOPLIST_FILE = LopeTests/Info.plist;
@@ -503,6 +516,7 @@
 		E709C7802257B4CB0084D8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6VULMTHBS;
 				INFOPLIST_FILE = LopeTests/Info.plist;
