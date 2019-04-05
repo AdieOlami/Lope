@@ -44,7 +44,7 @@ import UIKit
     private var startingFrame: CGRect?
     
     let screenSize = UIScreen.main.bounds
-    public init(frame: CGRect) {
+    open override init(frame: CGRect) {
         super.init(frame: frame)
         sliderImage.backgroundColor = sliderBackgroundColor
         baseView.backgroundColor = baseViewBackgroundColor
