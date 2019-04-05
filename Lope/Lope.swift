@@ -9,7 +9,7 @@
 import UIKit
 
 
-open class Lope: UIView {
+public class Lope: UIView {
     
     open var sliderBackgroundColor: UIColor? = .black
     
@@ -44,7 +44,7 @@ open class Lope: UIView {
     private var startingFrame: CGRect?
     
     let screenSize = UIScreen.main.bounds
-    open override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         sliderImage.backgroundColor = sliderBackgroundColor
         baseView.backgroundColor = baseViewBackgroundColor
@@ -57,7 +57,7 @@ open class Lope: UIView {
         swipeFunc()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
