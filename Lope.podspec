@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://github.com/AdieOlami/Lope"
-  spec.screenshots  = "https://github.com/AdieOlami/Lope/Lope.gif"
+  spec.screenshots  = "https://raw.githubusercontent.com/AdieOlami/Lope/master/Lope.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
