@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         lope.delegate = self
         lope.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(lope)
-//        setup()
+        setup()
         
     }
     
@@ -64,7 +64,12 @@ extension ViewController: LopeDelegate {
     }
 
     func endSlide(_ end: Bool) {
-        print("endSlide Lope")
+//        print("endSlide Lope")
+        if end {
+            let alert = UIAlertController(title: "Lope", message: "Slide Done", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
     }
 
 }
