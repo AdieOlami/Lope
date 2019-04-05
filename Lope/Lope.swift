@@ -36,7 +36,7 @@ public class Lope: UIView {
     
     open lazy var title: UILabel = {
         let title = UILabel()
-        title.text = "Slide Me"
+        title.text = "Slide Me..."
         title.translatesAutoresizingMaskIntoConstraints = false
         return title
     }()
