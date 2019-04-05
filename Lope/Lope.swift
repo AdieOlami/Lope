@@ -9,7 +9,7 @@
 import UIKit
 
 
-@objc public class Lope: UIView {
+@objc open class Lope: UIView {
     
     open var sliderBackgroundColor: UIColor? = .black
     
