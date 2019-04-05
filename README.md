@@ -44,9 +44,8 @@ Coming Soon
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+<!--_For more examples and usage, please refer to the [Wiki][wiki]._-->
 
 ## Development setup
 
@@ -86,13 +85,6 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
         ])
     }
 
-fileprivate func onBoardingFunc() {
-let onBoardingPC = self.onBoardingPC()
-onBoardingPC.delegate = self
-self.addChildViewControllerWithView(onBoardingPC)
-}
-
-
 ### Delegate method on what to do on completion
 
     extension ViewController: LopeDelegate {
@@ -128,11 +120,11 @@ Adie Olalekan – [@AdieOlami](https://twitter.com/AdieOlami) – ugbeadie@gmail
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/KingOlami/Lope](https://github.com/AdieOlami/)
+[https://github.com/AdieOlami/Lope](https://github.com/AdieOlami/)
 
 ## Contributing
 
-1. Fork it (<https://github.com/kingolami/OnBoardingScreen/fork>)
+1. Fork it (<https://github.com/AdieOlami/Lope/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
