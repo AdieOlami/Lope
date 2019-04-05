@@ -27,15 +27,15 @@ class ViewController: UIViewController {
         return sliderImage
     }()
     
-//    var lope: Lope!
+    var lope: Lope!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        view.backgroundColor = .white
-//        lope = Lope(frame: CGRect.zero)
-//        lope.delegate = self
-//        lope.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .white
+        lope = Lope(frame: CGRect.zero)
+        lope.delegate = self
+        lope.translatesAutoresizingMaskIntoConstraints = false
 //        self.view.addSubview(lope)
         setup()
         

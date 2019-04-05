@@ -40,10 +40,10 @@ import UIKit
     }()
     
     private var startingFrame: CGRect?
-    weak var delegate: LopeDelegate?
+    open weak var delegate: LopeDelegate?
     
     let screenSize = UIScreen.main.bounds
-    override init(frame: CGRect) {
+    override open init(frame: CGRect) {
         super.init(frame: frame)
         sliderImage.backgroundColor = sliderBackgroundColor
         baseView.backgroundColor = baseViewBackgroundColor
