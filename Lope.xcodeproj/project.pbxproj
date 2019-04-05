@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FAE81C331F7707F10ADE215 /* Pods_LopeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620946D0306EFDFFC4EFE9B8 /* Pods_LopeTests.framework */; };
+		727744A134F74E84D764E144 /* Pods_LopeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A7CDEE96F27F1E7FEA321D /* Pods_LopeTests.framework */; };
+		865CA306DA6B02D68D66D9AE /* Pods_Lope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832FF493A9F97B8FC55296A3 /* Pods_Lope.framework */; };
 		E1C300B8555D4C1E3D95A826 /* Pods_LopeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B1D2AB686635906F0E6381 /* Pods_LopeExample.framework */; };
 		E709C7712257B4CB0084D8E1 /* Lope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E709C7672257B4CB0084D8E1 /* Lope.framework */; };
 		E709C7762257B4CB0084D8E1 /* LopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709C7752257B4CB0084D8E1 /* LopeTests.swift */; };
 		E709C7782257B4CB0084D8E1 /* Lope.h in Headers */ = {isa = PBXBuildFile; fileRef = E709C76A2257B4CB0084D8E1 /* Lope.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E709C7882257B5BB0084D8E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709C7872257B5BB0084D8E1 /* AppDelegate.swift */; };
 		E709C78A2257B5BB0084D8E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709C7892257B5BB0084D8E1 /* ViewController.swift */; };
-		E709C78D2257B5BB0084D8E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E709C78B2257B5BB0084D8E1 /* Main.storyboard */; };
 		E709C78F2257B5BC0084D8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E709C78E2257B5BC0084D8E1 /* Assets.xcassets */; };
 		E709C7922257B5BC0084D8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E709C7902257B5BC0084D8E1 /* LaunchScreen.storyboard */; };
 		E709C7982257B9D90084D8E1 /* Lope.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709C7972257B9D90084D8E1 /* Lope.swift */; };
 		E709C79A2257BA050084D8E1 /* LopeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E709C7992257BA050084D8E1 /* LopeDelegate.swift */; };
-		F17BA694D033587D256A5997 /* Pods_Lope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672624A4635CB529AF5C742 /* Pods_Lope.framework */; };
+		E75EA3232257E8490083F824 /* Lope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75EA3222257E8490083F824 /* Lope.framework */; };
+		E75EA3242257E8490083F824 /* Lope.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E75EA3222257E8490083F824 /* Lope.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,16 +33,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E75EA3252257E8490083F824 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E75EA3242257E8490083F824 /* Lope.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		53DBD3464A93076822196303 /* Pods-Lope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lope.debug.xcconfig"; path = "Target Support Files/Pods-Lope/Pods-Lope.debug.xcconfig"; sourceTree = "<group>"; };
-		620946D0306EFDFFC4EFE9B8 /* Pods_LopeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LopeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CDD52CE59E3963A5EC5850 /* Pods-LopeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopeExample.release.xcconfig"; path = "Target Support Files/Pods-LopeExample/Pods-LopeExample.release.xcconfig"; sourceTree = "<group>"; };
 		66CA8DECF6350E88D36214D0 /* Pods-LopeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopeTests.release.xcconfig"; path = "Target Support Files/Pods-LopeTests/Pods-LopeTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F636E20A56BEF560DAFAC27 /* Pods-LopeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopeExample.debug.xcconfig"; path = "Target Support Files/Pods-LopeExample/Pods-LopeExample.debug.xcconfig"; sourceTree = "<group>"; };
+		832FF493A9F97B8FC55296A3 /* Pods_Lope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98F134511CFE8C8945E390C /* Pods-LopeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LopeTests.debug.xcconfig"; path = "Target Support Files/Pods-LopeTests/Pods-LopeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0B1D2AB686635906F0E6381 /* Pods_LopeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LopeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BC2B03A0CD1B8FE95568B1 /* Pods-Lope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lope.release.xcconfig"; path = "Target Support Files/Pods-Lope/Pods-Lope.release.xcconfig"; sourceTree = "<group>"; };
-		E672624A4635CB529AF5C742 /* Pods_Lope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A7CDEE96F27F1E7FEA321D /* Pods_LopeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LopeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E709C7672257B4CB0084D8E1 /* Lope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E709C76A2257B4CB0084D8E1 /* Lope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lope.h; sourceTree = "<group>"; };
 		E709C76B2257B4CB0084D8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,12 +66,12 @@
 		E709C7852257B5BB0084D8E1 /* LopeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LopeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E709C7872257B5BB0084D8E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E709C7892257B5BB0084D8E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E709C78C2257B5BB0084D8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E709C78E2257B5BC0084D8E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E709C7912257B5BC0084D8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E709C7932257B5BC0084D8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E709C7972257B9D90084D8E1 /* Lope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lope.swift; sourceTree = "<group>"; };
 		E709C7992257BA050084D8E1 /* LopeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LopeDelegate.swift; sourceTree = "<group>"; };
+		E75EA3222257E8490083F824 /* Lope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17BA694D033587D256A5997 /* Pods_Lope.framework in Frameworks */,
+				865CA306DA6B02D68D66D9AE /* Pods_Lope.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E709C7712257B4CB0084D8E1 /* Lope.framework in Frameworks */,
-				3FAE81C331F7707F10ADE215 /* Pods_LopeTests.framework in Frameworks */,
+				727744A134F74E84D764E144 /* Pods_LopeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E75EA3232257E8490083F824 /* Lope.framework in Frameworks */,
 				E1C300B8555D4C1E3D95A826 /* Pods_LopeExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,16 +114,15 @@
 				A98F134511CFE8C8945E390C /* Pods-LopeTests.debug.xcconfig */,
 				66CA8DECF6350E88D36214D0 /* Pods-LopeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		9B192904D76A21AEB224466B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E672624A4635CB529AF5C742 /* Pods_Lope.framework */,
 				C0B1D2AB686635906F0E6381 /* Pods_LopeExample.framework */,
-				620946D0306EFDFFC4EFE9B8 /* Pods_LopeTests.framework */,
+				832FF493A9F97B8FC55296A3 /* Pods_Lope.framework */,
+				E3A7CDEE96F27F1E7FEA321D /* Pods_LopeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +130,7 @@
 		E709C75D2257B4CB0084D8E1 = {
 			isa = PBXGroup;
 			children = (
+				E75EA3222257E8490083F824 /* Lope.framework */,
 				E709C7692257B4CB0084D8E1 /* Lope */,
 				E709C7742257B4CB0084D8E1 /* LopeTests */,
 				E709C7862257B5BB0084D8E1 /* LopeExample */,
@@ -159,7 +175,6 @@
 			children = (
 				E709C7872257B5BB0084D8E1 /* AppDelegate.swift */,
 				E709C7892257B5BB0084D8E1 /* ViewController.swift */,
-				E709C78B2257B5BB0084D8E1 /* Main.storyboard */,
 				E709C78E2257B5BC0084D8E1 /* Assets.xcassets */,
 				E709C7902257B5BC0084D8E1 /* LaunchScreen.storyboard */,
 				E709C7932257B5BC0084D8E1 /* Info.plist */,
@@ -227,6 +242,7 @@
 				E709C7812257B5BB0084D8E1 /* Sources */,
 				E709C7822257B5BB0084D8E1 /* Frameworks */,
 				E709C7832257B5BB0084D8E1 /* Resources */,
+				E75EA3252257E8490083F824 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,7 +316,6 @@
 			files = (
 				E709C7922257B5BC0084D8E1 /* LaunchScreen.storyboard in Resources */,
 				E709C78F2257B5BC0084D8E1 /* Assets.xcassets in Resources */,
-				E709C78D2257B5BB0084D8E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,14 +428,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E709C78B2257B5BB0084D8E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E709C78C2257B5BB0084D8E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E709C7902257B5BC0084D8E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

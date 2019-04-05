@@ -34,10 +34,10 @@ class ViewController: UIViewController {
         
         view.backgroundColor = .white
         lope = Lope(frame: CGRect.zero)
-//        lope.dele = self
+        lope.delegate = self
         lope.translatesAutoresizingMaskIntoConstraints = false
-//        self.view.addSubview(lope)
-        setup()
+        self.view.addSubview(lope)
+//        setup()
         
     }
     

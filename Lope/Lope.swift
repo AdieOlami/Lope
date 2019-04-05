@@ -53,6 +53,7 @@ public class Lope: UIView {
 
         self.addSubview(baseView)
         baseView.addSubview(sliderImage)
+        baseView.addSubview(title)
         constraints()
         swipeFunc()
     }
